@@ -7,7 +7,7 @@ import {router} from './routes.js';
 import VueResource from 'vue-resource';
 
 Vue.use(VueResource);
-Vue.http.options.root = 'http://js.dmitrylavrik.ru/api/'
+Vue.http.options.root = 'http://localhost:3000/'
 
 new Vue({
   el: '#app',
